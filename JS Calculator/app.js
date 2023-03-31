@@ -13,7 +13,7 @@
   });
 
   equal.addEventListener("click", function (e) {
-    if (screen.value === "") {
+    if (screen.value == "") {
       screen.value = "Please enter value";
       alert("Your screen is empty please Enter something!");
     } else {
