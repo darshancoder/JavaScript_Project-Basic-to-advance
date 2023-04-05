@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Poppins:wght@300&family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    /* background-color: #F3FF58; */
+    background: linear-gradient(to right, #2b5876cd, #4e4376);
+
+}
+
+Marquee{
+    color: whitesmoke;
+    /* margin-top: 10px;.. */
+}
+.img-container{
+    width: 60%;
+    height: 75vh;
+    background: url("image/1.jpg") center/cover fixed no-repeat;
+    border: 0.5rem solid #FFF700;
+    position: relative;
+    margin:4rem auto;
+    box-shadow: 10px 10px 35px rgba(0, 0, 0, 0.6) ;
+}
+
+
+.btn-left{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #3B117E;
+    color: #fff;
+    transform: translate(-50%,-50%);
+    border: 0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+
+.btn-right{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #3B117E;
+    color: #fff;
+    transform: translate(50%,-50%);
+    border: 0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+
+}
