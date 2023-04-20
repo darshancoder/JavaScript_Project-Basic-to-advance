@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    background: brown;
+    color: white;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    border-radius:10px ;
+}
+
+.btn{
+    outline: none;
+    border: none;
+    background: cadetblue;
+    color: whitesmoke;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    transition: background 200ms;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ;
+    border-radius:20px ;
+}
+
+.btn:hover{
+    background:rgb(48, 90, 92) ;
+    background: radial-gradient(t);
+}
